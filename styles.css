@@ -51,7 +51,22 @@ body.dark-mode h1 {
 .container-pai {
     margin: 0 auto;
     padding: 30px 70px;
-    border: 1px solid #f0eded;
+    border: 1px solid #dad8d8;
+    background-color: #5b2ace13;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;   
+    max-width: 90%;
+    padding: 30px 5%;
+    min-width: 300px;
+    opacity: 100%; 
+    backdrop-filter: blur(100px);      
+}
+
+/* Estilo para o container principal no modo escuro */
+body.dark-mode .container-pai {
+    margin: 0 auto;
+    padding: 30px 70px;
+    border: 1px solid #686868;
     background-color: #5b2ace13;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;   
