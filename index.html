@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>To-do List</title>
+</head>
+<body>
+    <div class="container-pai">
+        <!-- Título -->
+        <h1 class="titulo">To do  LIST</h1>
+        
+        <label class="switch">
+            <input type="checkbox" id="toggle-dark-mode">
+            <span class="slider">
+                <img src="assets/moon-stars.svg" alt="Modo escuro" class="icon">
+            </span>
+        </label>       
+
+
+        <!-- Seção para adicionar uma nova tarefa -->
+        <div class="nova-tarefa-container">
+            <input type="text" class="nova-tarefa-input" placeholder="Digite uma nova tarefa">
+            <button class="nova-tarefa-button">Adicionar</button>
+        </div>
+        
+        <!-- Container para listar as tarefas -->
+        <div class="tarefas-container">
+        </div>
+
+        <!-- Seção de links para redes sociais -->
+        <div class="apresentacao-links">
+            <h2 class="apresentacao-links-subtitulo">Acesse minhas redes:</h2>
+            <div class="links-container">
+                <a class="apresentacao-links_link" href="https://www.linkedin.com/in/suianehenrichs/"><img src="assets/linkedin.png">Linkedin</a>
+                <a class="apresentacao-links_link" href="https://github.com/SuianeHenrichs1"><img src="assets/github.png">Github</a>
+            </div>
+        </div>  
+        
+
+    </div>
+    <!-- FontAwesome script para ícones -->
+    <script src="https://kit.fontawesome.com/7fb05a20f8.js" crossorigin="anonymous"></script>
+    <!-- Script principal da aplicação -->
+    <script src="script.js"></script>
+</body>
+</html>
