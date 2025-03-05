@@ -334,6 +334,61 @@ input:checked + .slider .icon {
     content: url("assets/sun.svg"); /* Ícone do sol */
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; /* Reduz o tamanho da fonte para telas menores */
+    }
+}
+
+@media (max-width: 768px) {
+    .container-pai {
+        padding: 20px 5%;
+        max-width: 95%;
+    }
+
+    .nova-tarefa-container {
+        flex-direction: column; /* Empilha os elementos */
+        align-items: center;
+    }
+
+    .nova-tarefa-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .nova-tarefa-button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .apresentacao-links {
+        align-items: center;
+    }
+
+    .links-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .apresentacao-links_link {
+        width: 100%;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .tarefas-item {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .tarefas-item i {
+        padding: 10px;
+    }
+}
 
 
 
