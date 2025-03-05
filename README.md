@@ -46,7 +46,7 @@ O TodoList permite aos usuários:
 
 ## 🚀 Deploy
 
-Você pode visualizar o projeto funcionando através do seguinte link: [Deploy do Projeto](https://todolist-sui.vercel.app).
+Você pode visualizar o projeto funcionando através do seguinte link: [Deploy do Projeto](https://suianehenrichs1.github.io/todolist/).
 
 ### 📩 Contato
 
